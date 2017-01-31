@@ -11,7 +11,7 @@ Also includes [Xbox accent colors](https://msdn.microsoft.com/en-us/windows/uwp/
 
 ### TODO ###
 - [ ] Create variables for Windows 10 accent colors
-- [ ] Include some **_Zune_** colors
+- [x] Include some **_Zune_** colors
 - [ ] Consider renaming `$ms-` color names. ([Suggestions welcome.](https://github.com/jasonjgardner/microsoft-scss-colors/issues/1))
 - [ ] Create demo page.
 - [ ] Port to LESS or Stylus

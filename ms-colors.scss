@@ -565,7 +565,7 @@ $ms-cyan-600: #006f94;
 /// @type Color
 $ms-cyan-700: #005b70;
 
-/// @group Indigo
+/// @group Cyan
 /// @type Map
 /// @example
 /// 	$cyan: map-get($ms-cyan, 400);
@@ -738,6 +738,11 @@ $ms-indigo-500: #32318c;
 /// @group Indigo
 /// @type Color
 $ms-indigo-600: #242466;
+
+/// Custom indigo shade (Not officially apart of Microsoft's color palette)
+/// @group Violet
+/// @type Color
+$ms-indigo-700: darken($ms-indigo-600, 10%);
 
 /// @group Indigo
 /// @type Map
@@ -1713,11 +1718,93 @@ $ms-xbox: (
 	dark: $ms-xbox-dark
 );
 
+
+
 /// @group Windows 10 Colors
 /// @type Map
 /// @link https://msdn.microsoft.com/en-us/windows/uwp/style/color
 /// @todo Create Windows 10 color map, similar to `$ms-xbox`
 $ms-win: ();
+
+
+
+/// @group Zune
+/// @type Color
+$ms-zune-pink: #f10da2;
+
+/// @group Zune
+/// @type Color
+$ms-zune-orange: #fd5d11;
+
+/// @group Zune
+/// @type Color
+$ms-zune-blue: #1370bb;
+
+/// Background color used in Zune app's default skin
+/// @group Zune
+/// @type Color
+$ms-zune-light: #fdfdfd;
+
+/// Dark background used in Zune's _Quickplay_ tab.
+/// @group Zune
+/// @type Color
+$ms-zune-dark: #11090f;
+
+/// @group Zune
+/// @type Color
+$ms-zune-text: #e9e9e9;
+
+/// @group Zune
+/// @type Color
+$ms-zune-muted: #828689;
+
+/// Zune logo gradient
+/// @group Zune
+/// @type String
+/// @link http://colorzilla.com/gradient-editor/#e95216+0,f10da2+100 Get CSS gradient vendor prefixes for `$ms-zune-gradient`
+/// @example
+/// 	.zune {
+/// 		background-image: $ms-zune-gradient;
+/// 	}
+$ms-zune-gradient: linear-gradient(to bottom, $ms-zune-pink 0%, $ms-zune-orange 100%);
+
+/// Zune HD gradient
+/// @group Zune
+/// @type String
+/// @link http://colorzilla.com/gradient-editor/#e95216+2,e95216+2,f10da2+50,1370bb+98 Get CSS gradient vendor prefixes for `$ms-zune-hd-gradient`
+/// @example
+/// 	.zune-hd {
+/// 		background-image: $ms-zune-hd-gradient;
+/// 	}
+$ms-zune-hd-gradient: linear-gradient(135deg, $ms-zune-orange 2%, $ms-zune-blue 50%, $ms-zune-orange 98%);
+
+/// Subtle gradient seen in background of Zune dialogs
+/// @group Zune
+/// @type String
+/// @link http://colorzilla.com/gradient-editor/#e95216+2,e95216+2,f10da2+50,1370bb+98 Get CSS gradient vendor prefixes for `$ms-zune-hd-gradient`
+/// @example
+/// 	.zune-hd {
+/// 		background-image: $ms-zune-hd-gradient;
+/// 	}
+$ms-zune-background-gradient: linear-gradient(135deg, #200319 0%, #21303a 60%, #07192a 100%); // scss-lint:disable ColorVariable
+
+/// @group Zune
+/// @type Map
+/// @link
+/// @example
+/// 	$cute-zune: map-get($ms-zune, pink);
+/// 	// (Same as $ms-zune-pink)
+$ms-zune: (
+	pink: $ms-zune-pink,
+	orange: $ms-zune-orange,
+	blue: $ms-zune-blue,
+	light: $ms-zune-light,
+	dark: $ms-zune-dark,
+	text: $ms-zune-text,
+	muted: $ms-zune-muted
+);
+
+
 
 // By Jason Gardner
 // https://github.com/jasonjgardner/microsoft-scss-colors
