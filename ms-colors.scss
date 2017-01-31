@@ -1,8 +1,14 @@
 ///
 /// Microsoft Colors
-/// @link https://msdn.microsoft.com/en-us/windows/uwp/style/color
+/// @see https://www.microsoft.com/en-us/design/color
+/// @link https://github.com/jasonjgardner/microsoft-scss-colors
+/// @author Jason Gardner
+/// @example
+/// 	$red: map-get($ms-red, 400);
+/// 	$red: $ms-red-400
 ///
 
+/// @group colors
 // Reds
 $ms-red-100: #f4abba;
 $ms-red-200: #e6808a;
@@ -572,10 +578,7 @@ $ms-black: (
 	700: $ms-black-700
 );
 
-//
-// Contextual Colors
-//
-
+/// @group Contextual Colors
 $ms-assertive: $ms-crimson-500 !default;
 $ms-danger: $ms-red-400 !default;
 $ms-beacon: $ms-fuchsia-300 !default;
@@ -591,10 +594,7 @@ $ms-balanced: $ms-violet-300;
 $ms-light: $ms-black-100 !default;
 $ms-stable: $ms-black-200 !default;
 
-///
-/// UI Colors
-///
-
+/// @group UI Colors
 $ms-info: #65b7f0; // Windows 10 UAC notice color
 $ms-warn: #ffd64d; // Windows 10 UAC admin notice color
 $ms-ui-light-btn: $ms-black-300;
@@ -606,11 +606,34 @@ $ms-ui-dark-appbar: $ms-black-700;
 $ms-ui-dark-navbar: #171717;
 $ms-ui-dark-background: #000;
 
-///
-/// Xbox Colors
-/// @link https://msdn.microsoft.com/en-us/windows/uwp/style/color#xbox-accent-colors
-///
+/// @group Office & App Colors
+$ms-outlook: $ms-sky-400;
+$ms-calendar: #5133ab;
+$ms-onedrive: #094ab2;
+$ms-office: #d83b01;
+$ms-word: #2b579a;
+$ms-excel: #217346;
+$ms-powerpoint: #d24726;
+$ms-onenote: #80397b;
+$ms-sway: $ms-teal-600;
+$ms-skype: #00aff0;
+$ms-bing: #0c8484;
+$ms-msn: #1e1e1e;
 
+/// @group Skype Status Colors
+$ms-status-available: #5dd255;
+$ms-status-away: #ffd200;
+$ms-status-busy: #c72d25;
+$ms-status-invisible: #b6cfd8;
+
+/// @group Microsoft Logo Colors
+$ms-logo-red: #f25022;
+$ms-logo-green: #7fba00;
+$ms-logo-blue: #00a4ef;
+$ms-logo-yellow: $ms-gold-400;
+
+/// @group Xbox Colors
+/// @see https://msdn.microsoft.com/en-us/windows/uwp/style/color#xbox-accent-colors
 $ms-xbox-yellow: #e88c10;
 $ms-xbox-orange: #eb4910;
 $ms-xbox-red: #e31123;
@@ -657,39 +680,6 @@ $ms-xbox: (
 	dark: $ms-xbox-dark
 );
 
-// See here for Windows 10 colors: https://msdn.microsoft.com/en-us/windows/uwp/style/color
-
-///
-/// Office & App Colors
-///
-
-$ms-outlook: $ms-sky-400;
-$ms-calendar: #5133ab;
-$ms-onedrive: #094ab2;
-$ms-office: #d83b01;
-$ms-word: #2b579a;
-$ms-excel: #217346;
-$ms-powerpoint: #d24726;
-$ms-onenote: #80397b;
-$ms-sway: $ms-teal-600;
-$ms-skype: #00aff0;
-$ms-bing: #0c8484;
-$ms-msn: #1e1e1e;
-
-///
-/// Skype Status Colors
-///
-
-$ms-status-available: #5dd255;
-$ms-status-away: #ffd200;
-$ms-status-busy: #c72d25;
-$ms-status-invisible: #b6cfd8;
-
-///
-/// Microsoft Logo Colors
-///
-
-$ms-logo-red: #f25022;
-$ms-logo-green: #7fba00;
-$ms-logo-blue: #00a4ef;
-$ms-logo-yellow: $ms-gold-400;
+/// @group Windows 10 Colors
+/// @see https://msdn.microsoft.com/en-us/windows/uwp/style/color
+/// ...
