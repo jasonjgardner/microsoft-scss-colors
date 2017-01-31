@@ -1,0 +1,695 @@
+///
+/// Microsoft Colors
+/// @link https://msdn.microsoft.com/en-us/windows/uwp/style/color
+///
+
+// Reds
+$ms-red-100: #f4abba;
+$ms-red-200: #e6808a;
+$ms-red-300: #e74856;
+$ms-red-400: #e81123;
+$ms-red-500: #c50f1f;
+$ms-red-600: #a80000;
+$ms-red-700: #750b1c;
+
+$ms-red: (
+	100: $ms-red-100,
+	200: $ms-red-200,
+	300: $ms-red-300,
+	400: $ms-red-400,
+	500: $ms-red-500,
+	600: $ms-red-600,
+	700: $ms-red-700
+);
+
+// Redish orange
+$ms-red-orange-100: #eec7c2;
+$ms-red-orange-200: #ee9889;
+$ms-red-orange-300: #ef6950;
+$ms-red-orange-400: #f03a17;
+$ms-red-orange-500: #da3b01;
+$ms-red-orange-600: #a52613;
+$ms-red-orange-700: #7f1d10;
+
+$ms-red-orange: (
+	100: $ms-red-orange-100,
+	200: $ms-red-orange-200,
+	300: $ms-red-orange-300,
+	400: $ms-red-orange-400,
+	500: $ms-red-orange-500,
+	600: $ms-red-orange-600,
+	700: $ms-red-orange-700
+);
+
+// Orange
+$ms-orange-100: #f2d5c9;
+$ms-orange-200: #f7b189;
+$ms-orange-300: #f7894a;
+$ms-orange-400: #f7630c;
+$ms-orange-500: #ca5010;
+$ms-orange-600: #a74109;
+$ms-orange-700: #7f2f08;
+
+$ms-orange: (
+	100: $ms-orange-100,
+	200: $ms-orange-200,
+	300: $ms-orange-300,
+	400: $ms-orange-400,
+	500: $ms-orange-500,
+	600: $ms-orange-600,
+	700: $ms-orange-700
+);
+
+// Yellowish orange
+$ms-amber-100: #ffdabb;
+$ms-amber-200: #ffc988;
+$ms-amber-300: #fa4;
+$ms-amber-400: #ff8c00;
+$ms-amber-500: #d47300;
+$ms-amber-600: #b05e0d;
+$ms-amber-700: #7f4200;
+
+$ms-amber: (
+	100: $ms-amber-100,
+	200: $ms-amber-200,
+	300: $ms-amber-300,
+	400: $ms-amber-400,
+	500: $ms-amber-500,
+	600: $ms-amber-600,
+	700: $ms-amber-700
+);
+
+// Warm yellow
+$ms-gold-100: #ffe5b6;
+$ms-gold-200: #ffd679;
+$ms-gold-300: #ffc83d;
+$ms-gold-400: #ffb900;
+$ms-gold-500: #eaa300;
+$ms-gold-600: #d48c00;
+$ms-gold-700: #ab620d;
+
+$ms-gold: (
+	100: $ms-gold-100,
+	200: $ms-gold-200,
+	300: $ms-gold-300,
+	400: $ms-gold-400,
+	500: $ms-gold-500,
+	600: $ms-gold-600,
+	700: $ms-gold-700
+);
+
+// Yellow
+$ms-yellow-100: #f9f1a5;
+$ms-yellow-200: #faec6e;
+$ms-yellow-300: #fff100;
+$ms-yellow-400: #fce100;
+$ms-yellow-500: #dfbe00;
+$ms-yellow-600: #c19c00;
+$ms-yellow-700: #986f0b;
+
+$ms-yellow: (
+	100: $ms-yellow-100,
+	200: $ms-yellow-200,
+	300: $ms-yellow-300,
+	400: $ms-yellow-400,
+	500: $ms-yellow-500,
+	600: $ms-yellow-600,
+	700: $ms-yellow-700
+);
+
+// Warm green
+$ms-yellow-green-100: #f8ffb3;
+$ms-yellow-green-200: #e4f577;
+$ms-yellow-green-300: #d1ec3c;
+$ms-yellow-green-400: #bad80a;
+$ms-yellow-green-500: #a4cf0c;
+$ms-yellow-green-600: #8cbd18;
+$ms-yellow-green-700: #73aa24;
+
+$ms-yellow-green: (
+	100: $ms-yellow-green-100,
+	200: $ms-yellow-green-200,
+	300: $ms-yellow-green-300,
+	400: $ms-yellow-green-400,
+	500: $ms-yellow-green-500,
+	600: $ms-yellow-green-600,
+	700: $ms-yellow-green-700
+);
+
+// Bright green
+$ms-lime-100: #d5e5ae;
+$ms-lime-200: #b7df74;
+$ms-lime-300: #9ad93a;
+$ms-lime-400: #7cd300;
+$ms-lime-500: #6bb700;
+$ms-lime-600: #599b00;
+$ms-lime-700: #498205;
+
+$ms-lime: (
+	100: $ms-lime-100,
+	200: $ms-lime-200,
+	300: $ms-lime-300,
+	400: $ms-lime-400,
+	500: $ms-lime-500,
+	600: $ms-lime-600,
+	700: $ms-lime-700
+);
+
+// Green
+$ms-green-100: #aae5aa;
+$ms-green-200: #79db75;
+$ms-green-300: #47d041;
+$ms-green-400: #16c60c;
+$ms-green-500: #13a10e;
+$ms-green-600: #107c10;
+$ms-green-700: #0b6a0b;
+
+$ms-green: (
+	100: $ms-green-100,
+	200: $ms-green-200,
+	300: $ms-green-300,
+	400: $ms-green-400,
+	500: $ms-green-500,
+	600: $ms-green-600,
+	700: $ms-green-700
+);
+
+// Cool green
+$ms-mint-100: #a8e5c2;
+$ms-mint-200: #70dda5;
+$ms-mint-300: #38d487;
+$ms-mint-400: #00cc6a;
+$ms-mint-500: #00ae56;
+$ms-mint-600: #10893e;
+$ms-mint-700: #00722e;
+
+$ms-mint: (
+	100: $ms-mint-100,
+	200: $ms-mint-200,
+	300: $ms-mint-300,
+	400: $ms-mint-400,
+	500: $ms-mint-500,
+	600: $ms-mint-600,
+	700: $ms-mint-700
+);
+
+// Greeny green-blue
+$ms-teal-100: #c2f2e9;
+$ms-teal-200: #81e6d3;
+$ms-teal-300: #41dabc;
+$ms-teal-400: #00cea6;
+$ms-teal-500: #00b294;
+$ms-teal-600: #008272;
+$ms-teal-700: #005e50;
+
+$ms-teal: (
+	100: $ms-teal-100,
+	200: $ms-teal-200,
+	300: $ms-teal-300,
+	400: $ms-teal-400,
+	500: $ms-teal-500,
+	600: $ms-teal-600,
+	700: $ms-teal-700
+);
+
+// Bluey green-blue
+$ms-seafoam-100: #91e5df;
+$ms-seafoam-200: #61d6d6;
+$ms-seafoam-300: #30c6cc;
+$ms-seafoam-400: #00b7c3;
+$ms-seafoam-500: #009ca4;
+$ms-seafoam-600: #038387;
+$ms-seafoam-700: #066;
+
+$ms-seafoam: (
+	100: $ms-seafoam-100,
+	200: $ms-seafoam-200,
+	300: $ms-seafoam-300,
+	400: $ms-seafoam-400,
+	500: $ms-seafoam-500,
+	600: $ms-seafoam-600,
+	700: $ms-seafoam-700
+);
+
+// Light cool color
+$ms-indigo-100: #99ecff;
+$ms-indigo-200: #69eaff;
+$ms-indigo-300: #31d2f7;
+$ms-indigo-400: #00bcf2;
+$ms-indigo-500: #0099bc;
+$ms-indigo-600: #006f94;
+$ms-indigo-700: #005b70;
+
+$ms-indigo: (
+	100: $ms-indigo-100,
+	200: $ms-indigo-200,
+	300: $ms-indigo-300,
+	400: $ms-indigo-400,
+	500: $ms-indigo-500,
+	600: $ms-indigo-600,
+	700: $ms-indigo-700
+);
+
+// Light blue
+$ms-sky-100: #b3dbf2;
+$ms-sky-200: #83beec;
+$ms-sky-300: #3a96dd;
+$ms-sky-400: #0078d7;
+$ms-sky-500: #0063b1;
+$ms-sky-600: #004e8c;
+$ms-sky-700: #003966;
+
+$ms-sky: (
+	100: $ms-sky-100,
+	200: $ms-sky-200,
+	300: $ms-sky-300,
+	400: $ms-sky-400,
+	500: $ms-sky-500,
+	600: $ms-sky-600,
+	700: $ms-sky-700
+);
+
+// Blue
+$ms-blue-100: #abc9ed;
+$ms-blue-200: #7ba7ff;
+$ms-blue-300: #3b78ff;
+$ms-blue-400: #0046ff;
+$ms-blue-500: #0037da;
+$ms-blue-600: #0027b4;
+$ms-blue-700: #00188f;
+
+$ms-blue: (
+	100: $ms-blue-100,
+	200: $ms-blue-200,
+	300: $ms-blue-300,
+	400: $ms-blue-400,
+	500: $ms-blue-500,
+	600: $ms-blue-600,
+	700: $ms-blue-700
+);
+
+// Dark blue
+$ms-navy-100: #a6bdff;
+$ms-navy-200: #7c96f9;
+$ms-navy-300: #4f6bed;
+$ms-navy-400: #2849ec;
+$ms-navy-500: #203dbd;
+$ms-navy-600: #19318d;
+$ms-navy-700: #11255e;
+
+$ms-navy: (
+	100: $ms-navy-100,
+	200: $ms-navy-200,
+	300: $ms-navy-300,
+	400: $ms-navy-400,
+	500: $ms-navy-500,
+	600: $ms-navy-600,
+	700: $ms-navy-700
+);
+
+// Bluish purple
+$ms-indigo-100: #bebee5;
+$ms-indigo-200: #6b69d6;
+$ms-indigo-300: #4f4bd9;
+$ms-indigo-400: #413eb3;
+$ms-indigo-500: #32318c;
+$ms-indigo-600: #242466;
+
+$ms-indigo: (
+	100: $ms-indigo-100,
+	200: $ms-indigo-200,
+	300: $ms-indigo-300,
+	400: $ms-indigo-400,
+	500: $ms-indigo-500,
+	600: $ms-indigo-600,
+	700: $ms-indigo-700
+);
+
+// Light bluish purple
+$ms-violet-100: #b5b5e2;
+$ms-violet-200: #8378de;
+$ms-violet-300: #7160e8;
+$ms-violet-400: #5a4ebc;
+$ms-violet-500: #49409a;
+$ms-violet-600: #373277;
+$ms-violet-700: darken($ms-violet-600, 10%);
+
+$ms-violet: (
+	100: $ms-violet-100,
+	200: $ms-violet-200,
+	300: $ms-violet-300,
+	400: $ms-violet-400,
+	500: $ms-violet-500,
+	600: $ms-violet-600,
+	700: $ms-violet-700
+);
+
+// Light purple
+$ms-lavender-100: #c3c3f4;
+$ms-lavender-200: #9c89e9;
+$ms-lavender-300: #886ce4;
+$ms-lavender-400: #735bc1;
+$ms-lavender-500: #5e4a9d;
+$ms-lavender-600: #49397a;
+$ms-lavender-700: darken($ms-lavender-600, 10%);
+
+$ms-lavender: (
+	100: $ms-lavender-100,
+	200: $ms-lavender-200,
+	300: $ms-lavender-300,
+	400: $ms-lavender-400,
+	500: $ms-lavender-500,
+	600: $ms-lavender-600,
+	700: $ms-lavender-700
+);
+
+// Purple
+$ms-purple-100: #cfc4f5;
+$ms-purple-200: #8764b8;
+$ms-purple-300: #744da9;
+$ms-purple-400: #5c2e91;
+$ms-purple-500: #4e257f;
+$ms-purple-600: #401b6c;
+$ms-purple-700: darken($ms-purple-600, 10%);
+
+$ms-purple: (
+	100: $ms-purple-100,
+	200: $ms-purple-200,
+	300: $ms-purple-300,
+	400: $ms-purple-400,
+	500: $ms-purple-500,
+	600: $ms-purple-600,
+	700: $ms-purple-700
+);
+
+// Dark, Regal Purple
+$ms-prince-100: #dea2ed;
+$ms-prince-200: #b146c2;
+$ms-prince-300: #881798;
+$ms-prince-400: #721481;
+$ms-prince-500: #5c126b;
+$ms-prince-600: #460f54;
+$ms-prince-700: darken($ms-prince-600, 10%);
+
+$ms-prince: (
+	100: $ms-prince-100,
+	200: $ms-prince-200,
+	300: $ms-prince-300,
+	400: $ms-prince-400,
+	500: $ms-prince-500,
+	600: $ms-prince-600,
+	700: $ms-prince-700
+);
+
+// Magenta
+$ms-magenta-100: #de94e0;
+$ms-magenta-200: #c239b3;
+$ms-magenta-300: #b4009e;
+$ms-magenta-400: #9a0089;
+$ms-magenta-500: #800074;
+$ms-magenta-600: #5c005c;
+$ms-magenta-700: darken($ms-magenta-600, 10%);
+
+$ms-magenta: (
+	100: $ms-magenta-100,
+	200: $ms-magenta-200,
+	300: $ms-magenta-300,
+	400: $ms-magenta-400,
+	500: $ms-magenta-500,
+	600: $ms-magenta-600,
+	700: $ms-magenta-700
+);
+
+// Pinks
+$ms-pink-100: #e8a3de;
+$ms-pink-200: #e43ba6;
+$ms-pink-300: #e3008c;
+$ms-pink-400: #bf0077;
+$ms-pink-500: #9b0062;
+$ms-pink-600: #77004d;
+$ms-pink-700: darken($ms-pink-600, 10%);
+
+$ms-pink: (
+	100: $ms-pink-100,
+	200: $ms-pink-200,
+	300: $ms-pink-300,
+	400: $ms-pink-400,
+	500: $ms-pink-500,
+	600: $ms-pink-600,
+	700: $ms-pink-700
+);
+
+// Fuchsia
+$ms-fuchsia-100: #edbed3;
+$ms-fuchsia-200: #ee3f86;
+$ms-fuchsia-300: #ea005e;
+$ms-fuchsia-400: #c30052;
+$ms-fuchsia-500: #970044;
+$ms-fuchsia-600: #6b0036;
+$ms-fuchsia-700: darken($ms-fuchsia-600, 10%);
+
+$ms-fuchsia: (
+	100: $ms-fuchsia-100,
+	200: $ms-fuchsia-200,
+	300: $ms-fuchsia-300,
+	400: $ms-fuchsia-400,
+	500: $ms-fuchsia-500,
+	600: $ms-fuchsia-600,
+	700: $ms-fuchsia-700
+);
+
+// Muted Red
+$ms-crimson-100: #ffc0c0;
+$ms-crimson-200: #ff8c8c;
+$ms-crimson-300: #ff6767;
+$ms-crimson-400: #ff4343;
+$ms-crimson-500: #d13438;
+$ms-crimson-600: #a4262c;
+$ms-crimson-700: #761721;
+
+$ms-crimson: (
+	100: $ms-crimson-100,
+	200: $ms-crimson-200,
+	300: $ms-crimson-300,
+	400: $ms-crimson-400,
+	500: $ms-crimson-500,
+	600: $ms-crimson-600,
+	700: $ms-crimson-700
+);
+
+// Brown
+$ms-brown-100: #f7d7c4;
+$ms-brown-200: #d8b094;
+$ms-brown-300: #bb9167;
+$ms-brown-400: #ac744c;
+$ms-brown-500: #8e562e;
+$ms-brown-600: #603d30;
+$ms-brown-700: #4d291c;
+
+$ms-brown: (
+	100: $ms-brown-100,
+	200: $ms-brown-200,
+	300: $ms-brown-300,
+	400: $ms-brown-400,
+	500: $ms-brown-500,
+	600: $ms-brown-600,
+	700: $ms-brown-700
+);
+
+// Muted Green
+$ms-sage-100: #cae0d9;
+$ms-sage-200: #a3bfb7;
+$ms-sage-300: #7d9d95;
+$ms-sage-400: #567c73;
+$ms-sage-500: #486860;
+$ms-sage-600: #3b534d;
+$ms-sage-700: #2d3f3a;
+
+$ms-sage: (
+	100: $ms-sage-100,
+	200: $ms-sage-200,
+	300: $ms-sage-300,
+	400: $ms-sage-400,
+	500: $ms-sage-500,
+	600: $ms-sage-600,
+	700: $ms-sage-700
+);
+
+// Blue Gray
+$ms-slate-100: #bac8cc;
+$ms-slate-200: #a0aeb2;
+$ms-slate-300: #859599;
+$ms-slate-400: #69797e;
+$ms-slate-500: #5a686c;
+$ms-slate-600: #4a5459;
+$ms-slate-700: #394146;
+
+$ms-slate: (
+	100: $ms-slate-100,
+	200: $ms-slate-200,
+	300: $ms-slate-300,
+	400: $ms-slate-400,
+	500: $ms-slate-500,
+	600: $ms-slate-600,
+	700: $ms-slate-700
+);
+
+// Gray
+$ms-gray-100: #cbc6c4;
+$ms-gray-200: #b1adab;
+$ms-gray-300: #989391;
+$ms-gray-400: #7a7574;
+$ms-gray-500: #6e6a68;
+$ms-gray-600: #5d5a58;
+$ms-gray-700: #4c4a48;
+
+$ms-gray: (
+	100: $ms-gray-100,
+	200: $ms-gray-200,
+	300: $ms-gray-300,
+	400: $ms-gray-400,
+	500: $ms-gray-500,
+	600: $ms-gray-600,
+	700: $ms-gray-700
+);
+
+// Blacks
+$ms-black-100: #f2f2f2;
+$ms-black-200: #e6e6e6;
+$ms-black-300: #ccc;
+$ms-black-400: #767676;
+$ms-black-500: #393939;
+$ms-black-600: #2b2b2b;
+$ms-black-700: #1f1f1f;
+
+$ms-black: (
+	100: $ms-black-100,
+	200: $ms-black-200,
+	300: $ms-black-300,
+	400: $ms-black-400,
+	500: $ms-black-500,
+	600: $ms-black-600,
+	700: $ms-black-700
+);
+
+//
+// Contextual Colors
+//
+
+$ms-assertive: $ms-crimson-500 !default;
+$ms-danger: $ms-red-400 !default;
+$ms-beacon: $ms-fuchsia-300 !default;
+$ms-exciting: $ms-amber-400 !default;
+$ms-cheerful: $ms-yellow-300 !default;
+$ms-highlight: $ms-yellow-400;
+$ms-energized: $ms-lime-300 !default;
+$ms-growth: $ms-lime-400 !default;
+$ms-positive: $ms-mint-400 !default;
+$ms-sturdy: $ms-navy-400 !default;
+$ms-calm: $ms-sky-400 !default;
+$ms-balanced: $ms-violet-300;
+$ms-light: $ms-black-100 !default;
+$ms-stable: $ms-black-200 !default;
+
+///
+/// UI Colors
+///
+
+$ms-info: #65b7f0; // Windows 10 UAC notice color
+$ms-warn: #ffd64d; // Windows 10 UAC admin notice color
+$ms-ui-light-btn: $ms-black-300;
+$ms-ui-light-appbar: $ms-black-200;
+$ms-ui-light-navbar: $ms-black-100;
+$ms-ui-light-background: #fff;
+$ms-ui-dark-btn: $ms-black-600;
+$ms-ui-dark-appbar: $ms-black-700;
+$ms-ui-dark-navbar: #171717;
+$ms-ui-dark-background: #000;
+
+///
+/// Xbox Colors
+/// @link https://msdn.microsoft.com/en-us/windows/uwp/style/color#xbox-accent-colors
+///
+
+$ms-xbox-yellow: #e88c10;
+$ms-xbox-orange: #eb4910;
+$ms-xbox-red: #e31123;
+$ms-xbox-brick: #a21025;
+$ms-xbox-pink: #ed5588;
+$ms-xbox-magenta: #bf1077;
+$ms-xbox-lavender: #b144c0;
+$ms-xbox-purple: #744da9;
+$ms-xbox-blue: #1073d6;
+$ms-xbox-navy: #193e91;
+$ms-xbox-sky: #1081ca;
+$ms-xbox-slate: #677488;
+$ms-xbox-sage: #108272;
+$ms-xbox-forrest: #148282;
+$ms-xbox-lime: #54a81b;
+$ms-xbox-camo: #547a72;
+$ms-xbox-tan: #7e715c;
+$ms-xbox-brown: #724f2f;
+$ms-xbox-green: #107c10;
+$ms-xbox-gray: #737373;
+$ms-xbox-dark: #4c4a4b;
+
+$ms-xbox: (
+	yellow: $ms-xbox-yellow,
+	orange: $ms-xbox-orange,
+	red: $ms-xbox-red,
+	brick: $ms-xbox-brick,
+	pink: $ms-xbox-pink,
+	magenta: $ms-xbox-magenta,
+	lavender: $ms-xbox-lavender,
+	purple: $ms-xbox-purple,
+	blue: $ms-xbox-blue,
+	navy: $ms-xbox-navy,
+	sky: $ms-xbox-sky,
+	slate: $ms-xbox-slate,
+	sage: $ms-xbox-sage,
+	forrest: $ms-xbox-forrest,
+	lime: $ms-xbox-lime,
+	camo: $ms-xbox-camo,
+	tan: $ms-xbox-tan,
+	brown: $ms-xbox-brown,
+	green: $ms-xbox-green,
+	gray: $ms-xbox-gray,
+	dark: $ms-xbox-dark
+);
+
+// See here for Windows 10 colors: https://msdn.microsoft.com/en-us/windows/uwp/style/color
+
+///
+/// Office & App Colors
+///
+
+$ms-outlook: $ms-sky-400;
+$ms-calendar: #5133ab;
+$ms-onedrive: #094ab2;
+$ms-office: #d83b01;
+$ms-word: #2b579a;
+$ms-excel: #217346;
+$ms-powerpoint: #d24726;
+$ms-onenote: #80397b;
+$ms-sway: $ms-teal-600;
+$ms-skype: #00aff0;
+$ms-bing: #0c8484;
+$ms-msn: #1e1e1e;
+
+///
+/// Skype Status Colors
+///
+
+$ms-status-available: #5dd255;
+$ms-status-away: #ffd200;
+$ms-status-busy: #c72d25;
+$ms-status-invisible: #b6cfd8;
+
+///
+/// Microsoft Logo Colors
+///
+
+$ms-logo-red: #f25022;
+$ms-logo-green: #7fba00;
+$ms-logo-blue: #00a4ef;
+$ms-logo-yellow: $ms-gold-400;

@@ -1,0 +1,131 @@
+# Microsoft Universal Color Palette
+# SCSS Linter Settings
+
+scss_files: "*.scss"
+plugin_directories: ['.scss-linters']
+
+plugin_gems: []
+
+severity: warning
+
+linters:
+  BemDepth:
+    enabled: true
+    max_elements: 2
+
+  ColorVariable:
+    enabled: true
+
+  DeclarationOrder:
+    enabled: true
+
+  ElsePlacement:
+    enabled: true
+    style: same_line
+
+  HexLength:
+    enabled: true
+    style: short
+
+  HexNotation:
+    enabled: true
+    style: lowercase
+
+  HexValidation:
+    enabled: true
+
+  Indentation:
+    enabled: true
+    allow_non_nested_indentation: false
+    character: tab
+    width: 1
+
+  LeadingZero:
+    enabled: true
+    style: exclude_zero
+
+  MergeableSelector:
+    enabled: true
+    force_nesting: true
+
+  NameFormat:
+    enabled: true
+    allow_leading_underscore: true
+    convention: hyphenated_lowercase # `hyphenated_lowercase` or 'camel_case', or 'snake_case', or a regex pattern
+
+  NestingDepth:
+    enabled: true
+    max_depth: 4
+    ignore_parent_selectors: false
+
+  PropertyCount:
+    enabled: true
+    include_nested: false
+    max_properties: 10
+
+  PropertySortOrder:
+    enabled: true
+    ignore_unspecified: false
+    min_properties: 2
+    separate_groups: false
+
+  PropertySpelling:
+    enabled: true
+    extra_properties: []
+    disabled_properties: []
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 4
+
+  SelectorFormat:
+    enabled: false
+    convention: hyphenated_BEM
+
+  SpaceAfterComma:
+    enabled: true
+    style: one_space
+
+  SpaceAfterComment:
+    enabled: false
+    style: at_least_one_space
+    allow_empty_comments: true
+
+  SpaceAfterVariableColon:
+    enabled: true
+    style: at_least_one_space
+
+  SpaceAfterVariableName:
+    enabled: true
+
+  SpaceAroundOperator:
+    enabled: true
+    style: one_space
+
+  SpaceBeforeBrace:
+    enabled: true
+    style: space
+    allow_single_line_padding: false
+
+  SpaceBetweenParens:
+    enabled: true
+    spaces: 0
+
+  StringQuotes:
+    enabled: true
+    style: single_quotes
+
+  TrailingSemicolon:
+    enabled: true
+
+  TrailingWhitespace:
+    enabled: true
+
+  TrailingZero:
+    enabled: true
+
+  ZeroUnit:
+    enabled: true
+
+  Compass::*:
+    enabled: false
