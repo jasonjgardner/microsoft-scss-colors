@@ -1,0 +1,21 @@
+{
+  "name": "microsoft-scss-colors",
+  "version": "0.1.0",
+  "description": "SCSS/SASS variables for Microsoft Design universal color palette",
+  "author": "Jason Gardner",
+  "license": "Unlicense",
+  "homepage": "https://github.com/jasonjgardner/microsoft-scss-colors#readme",
+  "keywords": [
+    "scss",
+    "sass",
+    "microsoft",
+    "colors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonjgardner/microsoft-scss-colors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonjgardner/microsoft-scss-colors/issues"
+  }
+}
