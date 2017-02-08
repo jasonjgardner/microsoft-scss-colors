@@ -1720,10 +1720,20 @@ $ms-xbox: (
 
 
 
+/// Windows 10 toast notification background color
+/// @group Windows 10 Colors
+/// @type Color
+$ms-win-toast: #464646;
+
+/// Windows 10 toast notification border color
+/// @group Windows 10 Colors
+/// @type Color
+$ms-win-toast-border: #404040;
+
 /// @group Windows 10 Colors
 /// @type Map
 /// @link https://msdn.microsoft.com/en-us/windows/uwp/style/color
-/// @todo Create Windows 10 color map, similar to `$ms-xbox`
+/// @todo Create Windows 10 color map, similar to `$ms-xbox`. Add more Windows 10 colors.
 $ms-win: ();
 
 
@@ -1803,6 +1813,57 @@ $ms-zune: (
 	text: $ms-zune-text,
 	muted: $ms-zune-muted
 );
+
+
+
+/// Excel's "Good" cell color
+/// @group Excel
+/// @type Color
+$ms-excel-good: #c6efce;
+
+/// Excel's "Bad" cell color
+/// @group Excel
+/// @type Color
+$ms-excel-bad: #ffc7ce;
+
+/// Excel's "Neutral" cell color
+/// @group Excel
+/// @type Color
+$ms-excel-neutral: #ffeb9c;
+
+/// Excel's "Note" cell color
+/// @group Excel
+/// @type Color
+$ms-excel-note: #ffc;
+
+/// Excel's "Check Cell" cell color
+/// @group Excel
+/// @type Color
+$ms-excel-check: #a5a5a5;
+
+/// @group Excel
+/// @type Color
+$ms-excel-accent-cyan: #4bacc6;
+
+/// @group Excel
+/// @type Color
+$ms-excel-accent-blue: #4f81bd;
+
+/// @group Excel
+/// @type Color
+$ms-excel-accent-purple: #8064a2;
+
+/// @group Excel
+/// @type Color
+$ms-excel-accent-red: #c0504d;
+
+/// @group Excel
+/// @type Color
+$ms-excel-accent-orange: #f79646;
+
+/// @group Excel
+/// @type Color
+$ms-excel-accent-green: #9bbb59;
 
 
 

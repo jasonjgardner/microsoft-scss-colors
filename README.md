@@ -9,6 +9,19 @@ Also includes [Xbox accent colors](https://msdn.microsoft.com/en-us/windows/uwp/
 
 ---
 
+## Change Log ##
+
+### [0.2.0] - 2017-02-08 ###
+#### Added ####
+- Excel cell context colors
+- Windows 10 toast notification colors
+
+### [0.1.0] - 2017-01-31 ###
+#### Added ####
+- Zune colors were added by popular demand.
+
+---
+
 ### TODO ###
 - [ ] Create variables for Windows 10 accent colors
 - [x] Include some **_Zune_** colors
@@ -17,6 +30,7 @@ Also includes [Xbox accent colors](https://msdn.microsoft.com/en-us/windows/uwp/
 - [ ] Port to LESS or Stylus
 
 ### See Also ###
+- [Office UI Fabric](https://github.com/OfficeDev/office-ui-fabric-core)
 - [Material Colors](https://github.com/shuhei/material-colors)
 - [ColorHighlighter](https://github.com/Monnoroch/ColorHighlighter) for Sublime Text 2 & 3
 - [webbox-color](https://github.com/webBoxio/atom-color) for Atom
